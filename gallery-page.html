@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap offcanvas script, navbar, mega menu examples" />
+<meta name="description" content="Bootstrap offcanvas examples for any type of project, Bootstrap 4" />  
+
+
+<title>FISM Messina - Federazione Italiana Scuole Materne - Provincia di Messina</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="./styles/style.css"/>
+<link rel="stylesheet" href="./styles/responsive.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+</head>
+<body>
+<div class="d-flex" id="wrapper">
+  <b class="screen-overlay position-fixed"></b>
+
+  <!-- ASIDE MENU -->
+  <aside class="offcanvas position-fixed" id="my_offcanvas1">
+    <header class="aside-header d-flex">
+      <div class="aside-header-items d-flex w-100">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.fismbrescia.it/wp-content/themes/microtag-fism/images/logofismbrescia.png" width="50"
+            height="30" alt="" loading="lazy">
+        </a>
+        <h6 class="mb-0">Fism - Messina </h6>
+        <button class="btn btn-outline-danger btn-close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </header>
+    <nav class="aside-nav list-group list-group-flush justify-content-start">
+      <a href="#testimonial-box" class="list-group-item list-group-item-action bg-light">
+        <i class="fas fa-home"></i> Chi Siamo
+      </a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">
+        <i class="far fa-newspaper"></i> Notizie e Circolari
+      </a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">
+        <i class="far fa-bookmark"></i> Servizi FISM</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">
+        <i class="far fa-folder-open"></i> Staff</a>
+      <a href="./gallery-page.html" class="list-group-item list-group-item-action bg-light">
+        <i class="fas fa-images"></i> Gallery</a>
+      <a href="./login.html" class="list-group-item list-group-item-action bg-light">
+        <i class="far fa-user-circle"></i> Area Utente</a>
+      <form class="form-inline">
+        <button class="btn btn-outline-success " type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+        <input class="form-control" type="search" placeholder="Cerca..." aria-label="Search">
+      </form>
+    </nav>
+  </aside>
+  <!-- ASIDE MENU END -->
+
+  <!-- ========================= SECTION CONTENT ========================= -->
+
+  <!-- Page Content -->
+  <section id="gallery-page-content-wrapper" class="gallery-page-content-wrapper">
+    <nav class="navbar navbar-default fixed-top">
+      <div class="nav-items-container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/external-content.duckduckgo.com.jpg" width="40" height="40" alt="" loading="lazy">
+        </a>
+        <div class="nav-items-container-start">
+          <a href="./login.html">
+            <button class="user-area">
+              <i class="fas fa-user-circle"></i>
+            </button>
+          </a>
+          <button data-trigger="#my_offcanvas1" class="btn navbar-toggler" type="button">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+        <div class="nav-items-container-end">
+          <form class="form-search">
+            <button class="btn btn-outline-success " type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+            <input class="form-control" type="search" id="search-criteria" placeholder="Cerca..." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+<!-- ===========  PAGE  ========== --> 
+    <!-- HERO GALLERY -->
+    <div class="hero-gallery container-fluid" id="startchange">
+      <div class="hero-gallery-box d-flex justify-content-center align-items-center flex-nowrap">
+        <span class="hero-gallery-bg" data-aos="fade-up" data-aos-duration="2000">
+          <figure class="hero-image">
+            <img src="images/logofismbrescia.png" width="240" alt="Logo FISM">
+          </figure>
+          <h1>Fism Messina</h1>
+          <h3>La nostra gallery</h3>
+        </span>
+      </div>
+    </div> <!-- /HERO GALLERY -->
+    </section><!-- /page-content-wrapper -->
+
+<!-- GALLERY SECTION -->
+<section class="gallery-section">
+    <div class="gallery-wrapper row justify-content-center">
+        <div class="gallery-box col-md-12">
+            <div class="gallery-items row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+            </div>
+            <div class="gallery-items row">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer-section">
+    <div class="container">
+      <span class="copyright-info text-center">
+        © Fism Messina - Associazione degli asili e delle scuole dell'infanzia - Via Brescia, 7, 98124 Messina ME <br>
+        <a href="#consiglio" data-toggle="modal">Organi Sociali</a> - <a
+           href="http://www.fismmessina.it/privacy/privacy.pdf">Privacy Policy</a> - Tel: 0902927649 Fax: 0902927649 -
+      </span><!-- /.copyright-info -->
+    </div><!-- /.container -->
+  </footer>
+
+</div><!-- /d-flex wrapper-->
+
+<!-- JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="./scripts/js/main.js" type="text/javascript"></script>
+<script>
+  AOS.init();
+
+$(document).ready(function () {
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({
+          alwaysShowClose: true,
+          showArrows: true,
+        });
+      });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /* NAVBAR */
+    nav.nav-items-container-end form.form-search{
+        width: 50px;
+    }
+     nav.navbar .nav-items-container button i{
+        text-align: center;
+        font-size:28px;
+    }
+    nav.navbar .nav-items-container-end{
+        display: none;
+    }
+    nav.navbar .nav-items-container-start{
+        justify-content: end;
+    }
+    /* ASIDE menu */
+    .offcanvas{
+        width: 25%;
+    }
+    
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+    /* NAVBAR */
+    nav.nav-items-container-end form.form-search{
+        width: 50px;
+    }
+     nav.navbar .nav-items-container button i{
+        text-align: center;
+        font-size:28px;
+    }
+    nav.navbar .nav-items-container-end{
+        display: none;
+    }
+    nav.navbar .nav-items-container-start{
+        justify-content: end;
+    }
+    .offcanvas{
+        width: 25%;
+    } 
+}    
+    
+    
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    /* styles */
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* styles */
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+     .hero-gallery-bg h1{
+        font-size: 3.8rem;
+        line-height: 6rem;
+      }
+      .hero-gallery-bg h3{
+        font-size: 2.2rem;
+      }
+      #gallery-page-content-wrapper figure.hero-image{
+        position: relative;
+        padding: 10px;
+      }
+      section.gallery-section{
+        padding: 35px;
+      }
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    /* styles */
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    /* styles */
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    
+}

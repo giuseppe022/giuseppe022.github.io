@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monserrat:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:200i,400&display=swap');
+
+:root {
+    --color-white: #f3f3f3;
+    --color-orange: #ffae00; 
+    --color-dark: #121212;
+    --color-dark-transparent: #000000cc;
+}  
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*::selection{
+  background: #25b3a7;
+  color: black;
+}
+
+html,body {
+    height: 100%;
+    overflow-x: hidden; 
+}
+body{
+  font-family: 'Monserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+body.page-wrapper {
+	background:linear-gradient(0deg, #0000008f, #0000008f), url('https://images.unsplash.com/photo-1586632567957-15eb0bd211dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    color: white;
+}
+
+.page-wrapper figure{
+	width: 50%;
+	height: auto;
+	margin: 40px auto;
+	position: relative;
+	z-index: 1;
+}
+
+.page-wrapper .brand img {
+	width: 100%;
+}
+
+.page-wrapper .card-wrapper {
+	width: 400px;
+}
+
+.page-wrapper .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.page-wrapper .card.fat {
+    background-color: #02070765;
+    box-shadow: 0 5px 10px #0000006b;
+	padding: 10px;
+}
+
+.page-wrapper .card .card-title {
+	margin-bottom: 30px;
+}
+
+.page-wrapper .form-control {
+	border-width: 2.3px;
+}
+
+.page-wrapper .form-group label {
+	width: 100%;
+}
+
+.page-wrapper .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.page-wrapper .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.page-wrapper .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.page-wrapper .card.fat {
+		padding: 0;
+	}
+
+	.page-wrapper .card.fat .card-body {
+		padding: 15px;
+	}
+}
